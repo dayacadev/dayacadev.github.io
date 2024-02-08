@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body class="light-green lighten-5">
+    
+    <nav class="orange">
+        <a href="#" class="brand-logo center">ALURA - ONE CHALLENGE</a>
+    </nav>
+
+    <h4 href="#" class="brand-logo center"></h4>
+
+      <div class="contanier ">
+        <div class="container">
+        <div class="row"></div>
+        <div class="row">
+          <main class="col s12 ">
+            <form class="col s12">
+              <div class="input-field s7">
+                <textarea id="text__content" class="materialize-textarea text__content"></textarea>
+                <label for="textarea1">Escribe tú mensaje</label>
+                <div class="row"></div>
+                <div class="row">
+                  <button class="waves-effect waves-light btn" type="button" id="encrypt">Encriptar</button>
+                  <button class="waves-effect waves-light btn" type="button" id="decrypt">Desencriptar</button>
+                </div>
+              </div>
+            </form>
+          </main>
+          <aside class="col s12">
+            <div class="row">
+              <h4>Copia tú mensajes aquí:</h4>
+            </div>
+            <p class="col s7 show__message">No hay mensajes aún...</p>
+            <button class="waves-effect waves-light btn copy" type="button">Copiar</button>
+          </aside>
+        </div>
+        <div class="col s12 center red lighten-1">
+          <h4 class="message__regExp"></h4>
+        </div>
+      </div>
+    </div>
+    <footer class="orange darken-1">
+      <div class="footer-copyright">
+        <div class="container">
+          <h6 class="grey-text text-lighten-3">© 2024 Copyright Text</h6>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="scrips/app.js"></script>
+</body>
+</html>
